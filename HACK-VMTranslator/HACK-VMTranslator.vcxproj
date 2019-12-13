@@ -152,6 +152,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HACK-VMTranslator.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="Writer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="Writer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BasicTest.vm" />
+    <None Include="PointerTest.vm" />
+    <None Include="SimpleAdd.vm" />
+    <None Include="StackTest.vm" />
+    <None Include="StaticTest.vm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
